@@ -1,0 +1,17 @@
+{
+  "name": "now-env-vars",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "now-build": "next build && echo $DEMO_KEY"
+  },
+  "dependencies": {
+    "next": "^9.0.7",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}
